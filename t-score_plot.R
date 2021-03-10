@@ -148,7 +148,7 @@ vals.list.fun <- function(mat.list){
     return(vals.list)   
 }
 
-vals.list.fun <- vals.list(mat.list)
+
 
 # T-test 
 t.test.mu.zero <- function(cell, out='t'){
@@ -176,6 +176,7 @@ t.mat <- function(mat.list){
 }
 
 t.mat(mat.list)
+
 # Plot the t-scores
 t.plot <- function(mat.list){
   dissimgroup2matlist(dftrials)
